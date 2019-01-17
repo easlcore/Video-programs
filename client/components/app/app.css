@@ -1,0 +1,21 @@
+body {
+    font-size: 13px;
+    color: #404041;
+    line-height: 1.15;
+    margin: 0;
+    font-family: 'Arial';
+    position: relative;
+}
+
+button:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
+.app {
+    background-color: #fcfcfc;
+    min-height: 100vh;
+    min-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
